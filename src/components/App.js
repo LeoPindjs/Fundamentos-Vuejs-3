@@ -1,5 +1,5 @@
 let data = () =>({
-    message: "Hola bienvenido a Vuejs 3 😊",
+    titulo: "Hola bienvenido a Vuejs 3 😊",
 })
 
 let App = {
