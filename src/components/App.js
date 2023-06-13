@@ -1,16 +1,26 @@
-let data = () =>({
-    titulo: "Hola bienvenido a Vuejs 3 😊",
-    attrsImages: {
-      src:'https://images.pexels.com/photos/2113332/pexels-photo-2113332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt:'img-cat',
-      width:'400'
-    }
-  })
-  
+import { data } from "../estadoVue/index";
+import { methods } from "../metodos/index";
+
 let App = {
   data,
-}
+  methods,
+  template: `
+  <h1>{{titulo.toUpperCase()}}</h1>
+  <figure>
+    <!-- <img 
+      :src="attrsImages.src" 
+      :alt="attrsImages.alt" 
+      :width="attrsImages.width"
+    > -->
+    <img v-bind="attrsImages">
+  </figure>
+  <section>
+    <h1>Valor de mi contador {{contador}}</h1>
+    <button @click="incrementar">Incrementar</button>
+    <button @click="decrementar">Decrementar</button>
+    <button @click="reset">Reiniciar</button>
+  </section>
+  `,
+};
 
-export {
-    App as default
-}
+export { App as default };
