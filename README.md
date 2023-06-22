@@ -1,6 +1,11 @@
 # Fundamentos-Vuejs-3
 Trabajando con vuejs-3 ('Primeros pasos para comprender el framework )
-# Ejecución del Proyecto
+- [Fundamentos-Vuejs-3](#fundamentos-vuejs-3)
+- [Ejecución del proyecto](#ejecución-del-proyecto)
+- [Corriendo el proyecto](#corriendo-el-proyecto)
+- [Abriendo el proyecto en el navegador](#abriendo-el-proyecto-en-el-navegador)
+
+# Ejecución del proyecto
 
 Para correr el proyecto primero instale las dependencias:
 
@@ -8,13 +13,13 @@ Para correr el proyecto primero instale las dependencias:
 npm install
 
 ```
-Posteriormente corra el proyecto con el comando:
+# Corriendo el proyecto
 
 ```
 npm run dev
 
 ```
-Finalmente abra su proyecto en el navegador
+# Abriendo el proyecto en el navegador
 
 ```
 http://localhost:5173/
