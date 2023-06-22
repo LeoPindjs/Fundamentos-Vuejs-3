@@ -1,5 +1,4 @@
-# Contenido
-- [Contenido](#contenido)
+## Contenido
 - [Fundamentos-Vuejs-3](#fundamentos-vuejs-3)
 - [Ejecución del proyecto](#ejecución-del-proyecto)
 - [Corriendo el proyecto](#corriendo-el-proyecto)
