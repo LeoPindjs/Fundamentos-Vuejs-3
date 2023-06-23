@@ -8,6 +8,9 @@ let methods = {
   reset() {
     this.contador = 0;
   },
+  input(e){
+    this.titulo = e.target.value 
+  }
 };
 
 export {
